@@ -1,0 +1,482 @@
+  
+  
+  <!-- respaldo Sabado 7:15 am -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  {% load static %}
+
+  <title>Landing Page</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png'%}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png'%}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link type="text/css" href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link type="text/css" href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link type="text/css" href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link type="text/css" href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="#" class="logo d-flex align-items-center me-auto me-lg-0">
+        <h1>BOOK-ING<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#ofertas">Ofertas</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+
+      <a class="btn-book-a-table" href="#book-a-table">Reservar Libro</a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section  style="min-height: 50vh;margin-top: 120px;" id="inicio" class="hero d-flex align-items-center section-bg">
+    <br><br><div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">No dejes para mañana, <br>lo que puedes leer hoy.</h2>
+          <p data-aos="fade-up" data-aos-delay="100">"Un lector vive mil vidas antes de morir, el que nunca lee vive solo una."</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="reservas" class="btn-book-a-table">Reserva un libro</a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          
+          <img style="border-radius: 0 70px 0 70px;" src="{% static '/img/libro1.jpg' %}" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+ 
+
+  <main id="main">
+
+    <!-- ======= Nosotros Section ======= -->
+    <section id="nosotros" class="about">
+      <div class="container" data-aos="fade-up" style="display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;">
+
+        <div class="section-header">
+          <H2 style="font-size: 20px;" >NOSOTROS</h2>
+          <p>Aprende mas <span>Sobre nosotros</span></p>
+        </div>
+
+        <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+          <div class="content ps-0 ps-lg-5">
+            <p class="fst-italic">
+              <strong>Compromiso con la Comunidad:</strong><br>
+              Más que una empresa, somos parte de una comunidad 
+              de amantes de los libros. Aprende cómo estamos comprometidos 
+              a enriquecer esta comunidad, ya sea a través de 
+              eventos literarios locales, colaboraciones con autores 
+              o programas de lectura para niños.
+            </p><br>
+            <p class="fst-italic">
+              <strong>Nuestra Pasión por la Lectura:</strong><br>
+              
+              En BOOK-ING, la pasión por la lectura nos impulsa. 
+              Cada miembro de nuestro equipo comparte un amor 
+              profundo por los libros y cree en el poder transformador 
+              de la literatura. Nos dedicamos a compartir esta pasión 
+              contigo, facilitando el acceso a los mundos literarios que amas.
+            </p>
+
+            <p>
+              <strong>Transparencia en la Experiencia del Usuario:</strong><br>
+              
+              En BOOK-ING, la transparencia es clave. Descubre 
+              cómo mantenemos un proceso de reserva claro y sencillo 
+              para garantizar que cada cliente se sienta informado 
+              y satisfecho. Nos enorgullece ofrecer una experiencia 
+              del usuario sin complicaciones.
+            </p>
+
+            <div class="position-relative mt-4"><br>
+              <img style="border-radius: 50px;" src="{% static 'img/libros_varios.avif'%}" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                <strong>Misión:</strong><br>
+                
+                En BOOK-ING, nuestra misión es facilitar y 
+                enriquecer la experiencia de lectura de cada individuo. 
+                Nos comprometemos a ofrecer un servicio de reserva de 
+                libros en línea sencillo y eficiente, conectando a los 
+                amantes de la literatura con sus obras favoritas. Impulsados 
+                por el amor por los libros, buscamos inspirar y nutrir comunidades 
+                lectoras, fomentando un mundo donde el acceso a la cultura literaria 
+                sea accesible para todos.
+              </p>
+              <p>
+                <strong>Visión:</strong><br>
+                Nuestra visión en BOOK-ING es ser la principal plataforma 
+                de reserva de libros en línea, reconocida por su compromiso 
+                con la calidad, la innovación y la comunidad. Nos esforzamos 
+                por convertirnos en el destino preferido de los lectores ávidos, 
+                ofreciendo una amplia selección de títulos, experiencias personalizadas 
+                y un servicio al cliente excepcional. Visualizamos un futuro donde 
+                BOOK-ING no solo simplifica la adquisición de libros, sino que 
+                también contribuye activamente al crecimiento y la conexión de 
+                las comunidades literarias en todo el mundo
+              </p>
+
+              <div class="position-relative mt-4"><br>
+                <img style="border-radius: 50px;"  src="{% static 'img/libroRobot.webp'%}" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End nosotros Section -->
+
+    <!-- ======= Testimonios Section ======= -->
+    <section id="testimonios" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Testimonios</h2>
+          <p>Lo que opinan <span>De Nosotros</span></p>
+        </div>
+
+        <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        "Increíble experiencia de reserva en línea. ¡En BOOK-ING, encontré mi nuevo libro favorito en solo unos clics! Definitivamente volveré por más."
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Eduardo Campos</h3>
+                      <h4>Ceo </h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="{% static 'img/testimonials/testimonials-1.jpg' %}" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        "La conveniencia de reservar en línea y luego recoger en la tienda hace que BOOK-ING sea mi elección número uno para obtener mis lecturas. ¡Servicio rápido y amigable!"                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Sara Lobo</h3>
+                      <h4>Lic. Derecho</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="{% static 'img/testimonials/testimonials-2.jpg' %}" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        "BOOK-ING hace que la búsqueda del libro perfecto sea tan fácil. Me encanta la variedad y la interfaz intuitiva. ¡Una forma perfecta de descubrir nuevas historias!"                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Maria Rojas</h3>
+                      <h4>Educadora</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="{% static 'img/testimonials/testimonials-3.jpg' %}" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        "BOOK-ING ha elevado mi experiencia de compra de libros. Reservar en línea y recoger en la tienda es la combinación perfecta de comodidad y emoción. ¡Gracias por hacer que mi amor por la lectura sea aún más especial!"                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>John Arias</h3>
+                      <h4>Administrador</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="{% static 'img/testimonials/testimonials-4.jpg' %}" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonios Section -->
+
+    <!-- ======= Ofertas Section ======= -->
+      <section id="ofertas" class="events">
+        <div class="container-fluid" data-aos="fade-up">
+          <div class="section-header">
+            <div>
+            <h2>Ofertas</h2>
+              <p>Solo por <span>Diciembre</span> en oferta</p>
+            </div>
+              <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide event-item d-flex flex-column justify-content-end" <img>
+                        <h3>Superacion</h3>
+                        <img style="width: 500px;" src="{% static 'img/portadas/comohacer.jpg' %}" class="img-fluid testimonial-img" alt="">
+                        <div class="price align-self-start">₡9.900
+                        </div>
+                    </div><!-- End Event item -->
+                      <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
+                        <h3>Psicologia</h3>
+                        <img style="width: 500px;" src="{% static 'img/portadas/haceramigos.jpg' %}" class="img-fluid testimonial-img" alt="">
+                        <div class="price align-self-start">₡12.800
+                        </div>
+                      </div><!-- End Event item -->
+                      <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
+                      <h3>Inteligencia Emocional</h3>
+                      <img style="width: 500px;" src="{% static 'img/portadas/marianrojas.jpg' %}" class="img-fluid testimonial-img" alt="">
+                      <div class="price align-self-start">₡15.500
+                    </div>
+                </div><!-- End Event item -->
+              </div>
+              <div class="swiper-pagination">
+            </div>
+          </div>
+        </div>
+      </section><!-- End Events Section -->
+
+              <div  class="text-center"><button style="    background-color: red;
+                border-radius: 40px;
+                color: white;
+                border: none;
+                height: 35px;
+            " type="submit">Reservar libro</button></div>
+            </form>
+          </div><!-- End Reservation Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Book A Table Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contactanos</h2>
+          <p>Necesitas Ayuda? <span>Contactanos</span></p>
+        </div>
+
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <div>
+                <h3>Direccion</h3>
+                <p>San Ramon, Alajuela</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email </h3>
+                <p>contacto@book_ing.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Tel:</h3>
+                <p>506+ 8705-8773</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-share flex-shrink-0"></i>
+              <div>
+                <h3>Horario</h3>
+                <div><strong>Lun-Sab:</strong> 8AM - 7PM;
+                  <strong>Domingo:</strong> Cerrado
+                </div>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Alajuela, Costa Rica</h4>
+            <p>
+              San Ramon <br>
+              Alajuela,CR<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservationes</h4>
+            <p>
+              <strong>Phone:</strong> 506+ 8705-8773<br>
+              <strong>Email:</strong> info@book_ing.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Horario</h4>
+            <p>
+              <strong>Lun-Sab: 11AM</strong> - 7PM<br>
+              Domingo: Cerrado
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Siguenos</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>JBA</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+        Designed by <a href="#">JEINER BLANCO</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>

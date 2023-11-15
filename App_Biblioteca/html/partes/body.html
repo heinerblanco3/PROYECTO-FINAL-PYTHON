@@ -1,0 +1,66 @@
+{%extends 'partes/basepage.html'%}
+{%load static%}
+{%block title%} Inicio
+{%endblock%}
+
+{%block content%}
+
+
+<!-- ======= Header ======= -->
+    {%block header%}
+    {%include 'partes/header.html'%}
+    {%endblock%}
+<!-- End Header -->
+
+<!-- ======= inicio Section ======= -->
+    {% block inicio %}
+    {% include 'partes/inicio.html' %}
+    {% endblock %}
+<!-- End inicio Section -->
+
+
+<main id="main"> 
+
+<!-- ======= Nosotros Section ======= -->
+    {% block nosotros %}
+    {% include 'partes/nosotros.html' %}
+    {% endblock %}
+
+<!-- End nosotros Section -->
+
+<!-- ======= Testimonios Section ======= -->
+    {% block testimonios %}
+    {% include 'partes/testimonios.html' %}
+    {% endblock %}
+
+<!-- ======= Ofertas Section ======= -->
+    {% block ofertas %}
+    {% include 'partes/ofertas.html' %}
+    {% endblock %}
+
+<!-- End ofertas Section -->
+
+<!-- inicio boton reservas -->
+{%block botonreservas%}
+{%include 'partes/botonreservas.html'%}
+{%endblock%}
+
+
+<!-- End boton reservas -->
+
+
+<!-- ======= Contact Section ======= -->
+    {% block contactanos %}
+    {% include 'partes/contactanos.html' %}
+    {% endblock %}    
+<!-- End Contact Section -->
+
+</main>
+<!-- End #main -->
+
+<!-- ======= inicio Footer ======= -->
+    {%block footer%}
+    {%include 'partes/footer.html'%}
+    {%endblock%}
+<!-- End Footer -->
+{%endblock%}
