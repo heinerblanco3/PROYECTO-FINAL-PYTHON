@@ -3,14 +3,31 @@
 {%block title%} Pagina Reservas
 {%endblock%}
 
+<!--bloque contenido general -->
 {%block content%}
+
+    <!--bloque contenido header -->
 
     {% block header %}
     {%include 'partes/headerReservas.html'%}
     {% endblock %}
 
+
+
+    <!--bloque contenido body -->
+
+    {% block body %}
+    {%include 'partes/reservasbody.html'%}
+    {% endblock %}
+
+
+    <!--bloque contenido footer -->
+
     {%block footer%}
     {%include 'partes/footercorto.html'%}
     {%endblock%}
+
+
+
 
 {%endblock%} 
