@@ -1,5 +1,5 @@
 from django.db import models
-
+# comentarios prueva desde vscode
 # Create your models here.
 class DatosContacto(models.Model):
     nombre=models.CharField(max_length=50)
